@@ -286,7 +286,7 @@ public class GuiMEMonitorable extends AEBaseMEGui implements ISortSource, IConfi
 
         this.searchField = new MEGuiTextField(this.fontRenderer, this.guiLeft + Math.max(80, this.offsetX), this.guiTop + 4, 90, 12);
         this.searchField.setEnableBackgroundDrawing(false);
-        this.searchField.setMaxStringLength(25);
+        this.searchField.setMaxStringLength(60);
         this.searchField.setTextColor(0xFFFFFF);
         this.searchField.setSelectionColor(0xFF008000);
         this.searchField.setVisible(true);
